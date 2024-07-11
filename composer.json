@@ -1,0 +1,39 @@
+{
+    "name": "be-lenka/sap_business-partner",
+    "description": "This service enables you to create, display, update, and delete data related to Business Partner, Supplier, and Customer with the data provided in a payload, in an API call. This service also supports create deep entity operation and batch processing.",
+    "keywords": [
+        "openapitools",
+        "openapi-generator",
+        "openapi",
+        "php",
+        "sdk",
+        "rest",
+        "api"
+    ],
+    "homepage": "https://openapi-generator.tech",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BeLenka Dev",
+            "homepage": "https://www.belenka.com"
+        }
+    ],
+    "require": {
+"php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+"guzzlehttp/guzzle": "^6.2 || ^7.0"
+ 
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0 || ^9.0",
+        "friendsofphp/php-cs-fixer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": { "BeLenka\\SAP\\BusinessPartner\\" : "lib/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "BeLenka\\SAP\\BusinessPartner\\Test\\" : "test/" }
+    }
+}

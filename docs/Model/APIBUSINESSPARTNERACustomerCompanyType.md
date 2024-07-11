@@ -1,0 +1,46 @@
+# # APIBUSINESSPARTNERACustomerCompanyType
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**customer** | **string** | Customer Number | [optional]
+**company_code** | **string** |  | [optional]
+**apar_tolerance_group** | **string** | Tolerance Group for Business Partner/G/L Account | [optional]
+**account_by_customer** | **string** | Our Account Number at Customer | [optional]
+**accounting_clerk** | **string** | Accounting Clerk Abbreviation | [optional]
+**accounting_clerk_fax_number** | **string** | Accounting clerk&#39;s fax number at the customer/vendor | [optional]
+**accounting_clerk_internet_address** | **string** | Internet address of partner company clerk | [optional]
+**accounting_clerk_phone_number** | **string** | Accounting clerk&#39;s telephone number at business partner | [optional]
+**alternative_payer_account** | **string** | Account number of an alternative payer | [optional]
+**authorization_group** | **string** | Authorization Group | [optional]
+**collective_invoice_variant** | **string** | Collective Invoice Variant | [optional]
+**customer_account_note** | **string** | Memo | [optional]
+**customer_head_office** | **string** | Head Office Account Number (in branch accounts) | [optional]
+**customer_supplier_clearing_is_used** | **bool** | Indicator: Clearing between customer and vendor ? | [optional]
+**house_bank** | **string** | Short Key for a House Bank | [optional]
+**interest_calculation_code** | **string** |  | [optional]
+**interest_calculation_date** | **string** | Key Date of Last Interest Calculation | [optional]
+**intrst_calc_frequency_in_months** | **string** | Interest Calculation Frequency in Months | [optional]
+**is_to_be_locally_processed** | **bool** | Indicator: Local Processing? | [optional]
+**item_is_to_be_paid_separately** | **bool** | Indicator: Pay All Items Separately? | [optional]
+**layout_sorting_rule** | **string** | Key for Sorting According to Assignment Numbers | [optional]
+**payment_blocking_reason** | **string** | Block Key for Payment | [optional]
+**payment_methods_list** | **string** | List of Respected Payment Methods | [optional]
+**payment_reason** | **string** |  | [optional]
+**payment_terms** | **string** | Key for Terms of Payment | [optional]
+**payt_advice_is_sentby_edi** | **bool** | Indicator: Send Payment Advices by EDI | [optional]
+**physical_inventory_block_ind** | **bool** | Posting block for company code | [optional]
+**reconciliation_account** | **string** | Reconciliation Account in General Ledger | [optional]
+**record_payment_history_indicator** | **bool** | Indicator: Record Payment History ? | [optional]
+**user_at_customer** | **string** |  | [optional]
+**deletion_indicator** | **bool** | Deletion Flag for Master Record (Company Code Level) | [optional]
+**cash_planning_group** | **string** |  | [optional]
+**known_or_negotiated_leave** | **string** | Short Key for Known/Negotiated Leave | [optional]
+**value_adjustment_key** | **string** | Value Adjustment Key | [optional]
+**customer_account_group** | **string** | Customer Account Group | [optional]
+**to_company_text** | [**\BeLenka\SAP\BusinessPartner\Model\APIBUSINESSPARTNERACustomerCompanyTypeToCompanyText**](APIBUSINESSPARTNERACustomerCompanyTypeToCompanyText.md) |  | [optional]
+**to_customer_dunning** | [**\BeLenka\SAP\BusinessPartner\Model\APIBUSINESSPARTNERACustomerCompanyTypeToCustomerDunning**](APIBUSINESSPARTNERACustomerCompanyTypeToCustomerDunning.md) |  | [optional]
+**to_with_holding_tax** | [**\BeLenka\SAP\BusinessPartner\Model\APIBUSINESSPARTNERACustomerCompanyTypeToWithHoldingTax**](APIBUSINESSPARTNERACustomerCompanyTypeToWithHoldingTax.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
